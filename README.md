@@ -26,10 +26,10 @@ Our method is divided into two stages:
   
 
 # Results
-### Qualitative Results on real transparent objects
+### Qualitative Results 
 
 <details>
-  <summary>Real Transpose Dataset</summary>
+  <summary>Real world Transparent objects: Transpose Dataset</summary>
   
 <div align="center">
   
@@ -38,10 +38,8 @@ Our method is divided into two stages:
 
 </details>
 
-### Qualitative Results on synthetic transparent objects
-
 <details>
-  <summary>Synthetic Transpose Dataset</summary>
+  <summary>Synthetic Transparent objects with known object priors: Synthetic Transpose Dataset</summary>
   
 <div align="center">
   
@@ -52,11 +50,8 @@ Our method is divided into two stages:
 </details>
 
 
-### Qualitative Results on unseen synthetic transparent objects
-
-
 <details>
-  <summary> Clearpose Dataset </summary>
+  <summary> Synthetic Transparent objects with Unknown priors: Clearpose Dataset </summary>
   
 <div align="center">
   
