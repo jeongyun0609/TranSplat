@@ -71,7 +71,7 @@ Our method is divided into two stages:
 ## Video demonstration
 
 
-[![Video Label](http://img.youtube.com/vi/DKPlcUHIcTM/maxresdefault.jpg)]([https://youtu.be/DKPlcUHIcTM](https://youtu.be/DKPlcUHIcTM)?t=0s)
+[![Video Label](http://img.youtube.com/vi/DKPlcUHIcTM/maxresdefault.jpg)](https://youtu.be/DKPlcUHIcTM)
 
 Youtube Link: https://www.youtube.com/watch?v=DKPlcUHIcTM
 
