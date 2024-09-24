@@ -13,7 +13,7 @@ Official Repository for "TranSplat: Surface Embedding-guided 3D Gaussian Splatti
 
 <div align="center">
   
-[put method picture here]
+![put method picture here](./assets/pipline.png)
 </div>
 TLDR: We propose a new Gaussian Splatting-based depth completion framework specifically for transparent objects based on Surface Embedding features.
 
