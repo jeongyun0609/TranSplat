@@ -37,7 +37,7 @@ Our method is divided into two stages:
   
 <div align="center">
   
-[put real transpose image here]
+![put real transpose image here](./assets/real_TRansPose.png)
 </div>
 
 </details>
@@ -47,7 +47,7 @@ Our method is divided into two stages:
   
 <div align="center">
   
-[put synthetic transpose here]
+![put synthetic transpose here](./assets/syn_TRansPose.png)
 
 </div>
 
@@ -59,7 +59,7 @@ Our method is divided into two stages:
   
 <div align="center">
   
-[put clearpose here]
+![put clearpose here](./assets/syn_ClearPose.png)
 
 
 </div>
