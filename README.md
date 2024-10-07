@@ -3,11 +3,12 @@
 Official Repository for "TranSplat: Surface Embedding-guided 3D Gaussian Splatting for Transparent Object Manipulation", Underreview
 
 <div align="left">  
-  <a href="https://scholar.google.com/citations?hl=ko&user=vW2JtFAAAAAJ">Jeongyun Kim</a>,  
-  <a href="https://rpm.snu.ac.kr">JeongHo Noh</a>,
-  <a href="https://donkeymouse.github.io/">Dong-Guw Lee</a>,  
-  <a href="https://ayoungk.github.io/">Ayoung Kim</a> at <a href="https://rpm.snu.ac.kr">RPM Robotics Lab</a>
+  <a href="https://scholar.google.com/citations?user=u6VDnlgAAAAJ&hl=ko&oi=ao">Dong-Guw Lee</a>,  
+  <a href="https://scholar.google.com/citations?hl=ko&user=vW2JtFAAAAAJ">Jeongyun Kim</a>,
+  <a href="https://scholar.google.com/citations?user=W5MOKWIAAAAJ&hl=ko&oi=ao">Younggun Cho</a>,  
+  <a href="https://ayoungk.github.io/">Ayoung Kim</a>
 </div>
+
 
 ### Overview of the TranSplat
 
