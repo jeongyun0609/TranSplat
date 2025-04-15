@@ -71,9 +71,9 @@ Our method is divided into two stages:
 ## Video demonstration
 
 
-[![Video Label](http://img.youtube.com/vi/DKPlcUHIcTM/maxresdefault.jpg)](https://youtu.be/DKPlcUHIcTM)
+[![Video Label](http://img.youtube.com/vi/DKPlcUHIcTM/maxresdefault.jpg)](https://youtu.be/O_atdUlaF4I)
 
-Youtube Link: https://www.youtube.com/watch?v=DKPlcUHIcTM
+Youtube Link: https://www.youtube.com/watch?v=O_atdUlaF4I
 
 ## Usage
 
