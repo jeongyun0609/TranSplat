@@ -84,7 +84,7 @@ TranSplat is tested with Python 3.11.
 ```sh
 docker pull jungyun0609/transplat:1.0
 
-docker run --rm  --gpus all -it --env="DISPLAY" --net=host --ipc=host \\
+docker run --rm  --gpus all -it --env="DISPLAY" --net=host --ipc=host \
 --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" -v /:/mydata --volume /dev/:/dev/ --name {docker name ex: transplat} jungyun0609/transplat:1.0
 
 docker attach {docker name}
