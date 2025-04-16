@@ -93,7 +93,7 @@ docker attach {docker name}
 ### Cloning the Repository
 
 ```sh
-git clone https://github.com/jeongyun0609/TranSplat_private.git
+git clone https://github.com/jeongyun0609/TranSplat.git
 ```
 
 ### Download dataset, checkpoints, HF models
@@ -114,7 +114,7 @@ cd ../../
 
 The structure of the downloaded contents should be
 ```text
-TranSplat_private
+TranSplat
 ├── stage_0/SurfEmb/data
 │   ├── bop
 │   │   ├── TRansPose
@@ -165,7 +165,7 @@ cd ../../
 
 The structure of the preprocessing should be
 ```text
-TranSplat_private
+TranSplat
 ├── stage_0/SurfEmb/data
 │   └── bop/TRansPose_surfemb
 │       ├── train
