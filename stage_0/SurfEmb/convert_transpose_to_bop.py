@@ -9,6 +9,9 @@ import cv2
 import numpy as np
 import os
 from pathlib import Path
+
+# os.environ['PYOPENGL_PLATFORM'] = 'egl'
+os.environ['PYOPENGL_PLATFORM'] = 'osmesa'
 from distutils.dir_util import copy_tree
 import pyrender
 import argparse
@@ -16,7 +19,6 @@ import argparse
 parser = argparse.ArgumentParser(description='R6D')
 parser.add_argument('--is_train', action='store_true')
 args = parser.parse_args()
-os.environ['PYOPENGL_PLATFORM'] = 'egl'
 T_EE2Cam_R = np.array([
                     [ 0.03901212, -0.999075,    0.01808859,  0.07291089],
                     [ 0.9992336,   0.03906357,  0.0024998,   0.05048912],
