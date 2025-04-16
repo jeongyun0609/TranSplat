@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: minLoRA
+Version: 0.1.0
+Summary: A PyTorch re-implementation of LoRA
+Author: Jonathan Chang
+License: MIT
+License-File: LICENSE
