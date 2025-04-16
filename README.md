@@ -101,6 +101,7 @@ git clone https://github.com/jeongyun0609/TranSplat_private.git
 ```sh
 # in the docker container
 pip install gdown pyrender
+pip install PyOpenGL==3.1.4
 bash Download_ckpt.sh
 cd stage_0/SurfEmb/data/bop/TRansPose
 bash Download_TRansPose_models.sh
@@ -144,10 +145,13 @@ TranSplat_private
 └── stage_2
 ```
 
-### Dataset Preprocessing
+### TRansPose Dataset Preprocessing
+
+TRansPose Link : https://sites.google.com/view/transpose-dataset/download
 
 ```sh
 # add scene_*.json in every folder of stage_0/SurfEmb/data/bop/TransPose/(train,test)
+# if error occurs, change os.environ['PYOPENGL_PLATFORM'] = 'osmesa' to os.environ['PYOPENGL_PLATFORM'] = 'egl'
 cd stage_0/SurfEmb
 python convert_transpose_to_bop.py --is_train
 python convert_transpose_to_bop.py
