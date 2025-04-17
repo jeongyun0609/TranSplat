@@ -7,3 +7,11 @@ __pycache__/
 *.safetensors
 *.bin
 *.pkl
+stage_0/SurfEmb/data/bop/TRansPose/models/*.ply
+stage_0/SurfEmb/data/bop/TRansPose/models/*.obj
+stage_0/SurfEmb/data/bop/TRansPose/models/
+stage_0/SurfEmb/data/bop/TRansPose/sequences/Household_Only/
+stage_0/SurfEmb/data/bop/TRansPose/sequences/test/
+stage_0/SurfEmb/data/bop/TRansPose/test/
+stage_0/SurfEmb/data/bop/TRansPose_syn/TRansPose_syn/
+stage_2/output/
