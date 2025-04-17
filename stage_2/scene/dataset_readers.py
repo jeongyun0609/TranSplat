@@ -219,7 +219,9 @@ def readCamerasFromTransforms(path, transformsfile, white_background, extension=
                 depth = np.ones_like(cv2.imread(image_path,0))
 
             # mask_name = frame["remove_bg_path"]
-            mask_name = frame["surfemb_path"].replace("full_color", "remove_bg")
+            # mask_name = frame["surfemb_path"].replace("full_color", "remove_bg")
+            mask_name = frame["surfemb_path"].replace("SurfEmb/SurfEmb", "SurfEmb/remove_bg")
+            # mask_name = frame["surfemb_path"] # RGB
             only_object = cv2.imread(mask_name, -1)
             mask = only_object[:,:,3]>0
             

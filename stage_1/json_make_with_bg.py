@@ -96,12 +96,13 @@ if "syn" in args.dataset:
 
 else:
     seq_index = f"seq_test_{args.index:02d}"
-    test_path  = f"../stage_0/SurfEmb/data/bop/{args.dataset}/sequences/test/{seq_index}"
-    image_folder = os.path.join(test_path,"rgb")
-    depth_folder = os.path.join(test_path, 'depth')
+    # test_path  = f"../stage_0/SurfEmb/data/bop/{args.dataset}/sequences/test/{seq_index}"
+    test_path  = f"../stage_0/SurfEmb/data/bop/{args.dataset}/test/{seq_index}"
+    image_folder = os.path.join(test_path, 'cam_R', 'rgb')
+    depth_folder = os.path.join(test_path, 'cam_R', 'depth', 'raw')
     bg_folder = os.path.join(test_path, 'bg')
-    surfemb_folder = os.path.join(test_path, 'SurfEmb', 'SurfEmb')
-    remove_bg_folder = os.path.join(test_path, 'SurfEmb', 'remove_bg')
+    surfemb_folder = os.path.join(test_path, 'cam_R', 'SurfEmb', 'SurfEmb')
+    remove_bg_folder = os.path.join(test_path, 'cam_R', 'SurfEmb', 'remove_bg')
     with open(os.path.join(test_path,'World2EEs.json')) as f:
         cam_poses = json.load(f)
 
@@ -149,7 +150,7 @@ if "syn" in args.dataset:
 
 else:
     for idx, image_file in enumerate(image_files):
-        if idx%12!=0:
+        if idx % 12 != 0:
             continue
         image_name = image_file.split('.')[0]
         cam_rot = np.array(cam_poses[(image_file.split('_')[-1][0:6])]['rot']).reshape(3,3)
@@ -172,15 +173,15 @@ else:
             "bg_path": f"{bg_image_path}",
             "transform_matrix": pose_list
         }
-        if idx %2 == 1:
+        if idx % 48 == 0:
             out_["frames"].append(new_frame)
 
         else:
             out["frames"].append(new_frame)
 
-    with open(os.path.join(test_path,"transforms_val.json"), 'w') as f:
+    with open(os.path.join(test_path, "cam_R", "transforms_val.json"), 'w') as f:
         json.dump(out_, f, indent="\t")
-    with open(os.path.join(test_path,"transforms_test.json"), 'w') as f:
+    with open(os.path.join(test_path, "cam_R", "transforms_test.json"), 'w') as f:
         json.dump(out_, f, indent="\t")
-    with open(os.path.join(test_path,"transforms_train.json"), 'w') as f:
+    with open(os.path.join(test_path, "cam_R", "transforms_train.json"), 'w') as f:
         json.dump(out, f, indent="\t")

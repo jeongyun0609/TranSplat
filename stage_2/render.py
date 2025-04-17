@@ -116,7 +116,7 @@ def render_set(model_path, name, iteration, views, gaussians, pipeline, backgrou
 
         # torchvision.utils.save_image(apply_colormap(depth_map), os.path.join(depth_path, '{0:05d}'.format(idx) + ".png"))
         # torchvision.utils.save_image(apply_colormap(A), os.path.join(diff_path, '{0:05d}'.format(idx) + ".png"))
-
+        
     diff = diff / pixels
     diff_ = torch.sqrt(diff_ / pixels)
     print("L1norm:", diff)

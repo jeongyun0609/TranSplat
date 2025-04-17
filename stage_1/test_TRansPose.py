@@ -254,6 +254,8 @@ if __name__ == "__main__":
     with torch.no_grad():
         with model.ema_scope():
             for index, image in enumerate(tqdm(images, total=len(images))):
+                if index % 12 != 0:
+                    continue
                 if index%opt.batch!=0:
                     continue
                 if "syn" in opt.dataset:
