@@ -200,10 +200,10 @@ cd ../
 cd stage_2
 
 # Train Gaussian Splatting
-CUDA_VISIBLE_DEVICES={GPU to use ex 0,2} python3 train.py -s ../stage_0/SurfEmb/data/bop/TRansPose/test/seq_test_01/cam_R/ -m ./output/{name}
+CUDA_VISIBLE_DEVICES={GPU to use ex 0,2} python3 train.py -s ../stage_0/SurfEmb/data/bop/TRansPose/test/seq_test_01/cam_R/ -m ./output/{name} --eval
 
 # Render Gaussian Splatting
-CUDA_VISIBLE_DEVICES={GPU to use ex 0,2} python3 render.py -m ./output/{name}
+CUDA_VISIBLE_DEVICES={GPU to use ex 0,2} python3 render.py -m ./output/{name} --eval
 ```
 
 
