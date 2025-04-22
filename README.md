@@ -85,7 +85,7 @@ TranSplat is tested with Python 3.11.
 docker pull jungyun0609/transplat:1.0
 
 docker run --rm  --gpus all -it --env="DISPLAY" --net=host --ipc=host \
---volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" -v /:/mydata --volume /dev/:/dev/ --name {docker name ex: transplat} jungyun0609/transplat:1.0
+--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" -v /:/mydata --volume /dev/:/dev/ --runtime=nvidia -e NVIDIA_DRIVER_CAPABILITIES=all -v /usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.0:/usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.0:ro -v /usr/lib/x86_64-linux-gnu/libEGL.so.1:/usr/lib/x86_64-linux-gnu/libEGL.so.1:ro --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --name {docker name ex: transplat} jungyun0609/transplat:2.0
 
 docker attach {docker name}
 ```
