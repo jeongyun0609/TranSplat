@@ -1,4 +1,4 @@
-gdown --folder https://drive.google.com/drive/folders/1zAL-Wfq9uyD6Prw8_XBP9tWpfWynnufq?usp=drive_link
+gdown --folder https://drive.google.com/drive/folders/1ddGcskSd9YJ2WRoM0vgNW1O2lbOiHArY?usp=drive_link
 cd TRansPose_syn
 for file in *.tar.gz; do
     tar -xzf $file
@@ -7,7 +7,7 @@ rm -rf *.tar.gz
 cd ..
 mv TRansPose_syn ../../TRansPose_syn
 
-gdown --folder https://drive.google.com/drive/folders/1fSMFNIGCh2_BG37jo8fYpcFBMMw_rihJ?usp=drive_link
+gdown --folder https://drive.google.com/drive/folders/1X5nx2-TavYDvXCMCoE8-CgYS47JFYKYc?usp=drive_link
 cd ClearPose_syn
 for file in *.tar.gz; do
     tar -xzf $file

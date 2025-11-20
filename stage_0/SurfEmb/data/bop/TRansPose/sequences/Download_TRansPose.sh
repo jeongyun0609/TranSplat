@@ -1,5 +1,5 @@
 ##Category: Trash
-gdown --folder https://drive.google.com/drive/folders/12RE27Jjh2o6g5K4CxBCV8g-s32JXuEKp?usp=drive_link
+gdown --folder https://drive.google.com/drive/folders/1iXZiYpRGqzs1AbKr17W9jQr3smRy7NGv?usp=drive_link
 cd Trash_Only
 for file in *.tar.gz; do
     tar -xzf $file
@@ -10,7 +10,7 @@ cd ../..
 rm -rf Trash_Only
 
 ##Category: Household
-gdown --folder https://drive.google.com/drive/folders/1HxJiFkdSp-kije2Jz5QcSxlS_uDoNyr6?usp=drive_link
+gdown --folder https://drive.google.com/drive/folders/1S3J84ecZVR2mzX8ksQfuPzp6aazVQdHo?usp=drive_link
 cd Household_only
 for file in *.tar.gz; do
     tar -xzf $file
@@ -21,7 +21,7 @@ cd ../..
 rm -rf Household_only
 
 ##Category: Chemical
-gdown --folder https://drive.google.com/drive/folders/1ObRKzQ5drQPs7WNiXzxvWy_J0rpj2HKZ?usp=drive_link
+gdown --folder https://drive.google.com/drive/folders/1ssi9-m_pviSwAJ8Z7M7p19vTuB3b9gBW?usp=drive_link
 cd Chemical_Only
 for file in *.tar.gz; do
     tar -xzf $file
@@ -32,7 +32,7 @@ cd ../..
 rm -rf Chemical_Only
 
 ##Category: All
-gdown --folder https://drive.google.com/drive/folders/1gTV22EqIOnWCNnuO8-GEEgtjlWs9Darz?usp=drive_link
+gdown --folder https://drive.google.com/drive/folders/18j_F9j135FOzYYU76UJ2RR6uc0EKFrTd?usp=drive_link
 cd All\ Object
 for file in *.tar.gz; do
     tar -xzf $file
@@ -43,7 +43,7 @@ cd ../..
 rm -rf All\ Object
 
 #Test seq
-gdown --folder https://drive.google.com/drive/folders/1dcHB3lL-35_6otSGzDqw7ggFeG9U7g5p?usp=drive_link
+gdown --folder https://drive.google.com/drive/folders/1QLEt3jBY8ertAWnZUTh74ROUrVeW_WO6?usp=drive_link
 cd Testset
 for file in *.tar.gz; do
     tar -xzf $file
